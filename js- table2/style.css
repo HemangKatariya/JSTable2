@@ -1,0 +1,57 @@
+input,
+button {
+    height: 30px;
+    width: 200px;
+
+}
+
+button {
+    margin: 5px;
+    background-color: lightskyblue;
+    border: 0px solid lightskyblue;
+    font-family: 'Edu NSW ACT Foundation';
+
+}
+
+input {
+    border: 1px solid black;
+    background-color: rgb(184, 231, 184);
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    font-size: 20px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    letter-spacing: 2px;
+}
+
+.flex,
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+tr,
+td {
+    border: 1px solid black;
+    width: max-content;
+}
+
+table {
+    margin-top: 10px;
+    border: 2px dashed black;
+    padding: 10px;
+    width: max-content;
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}

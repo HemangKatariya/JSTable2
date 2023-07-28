@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex">
+        <div>
+            <h1>REGISTRATION FORM</h1>
+            <form>
+                <input type="text" id="name" name="name" placeholder="name"><br><br>
+
+                <input type="email" id="email" name="email" placeholder="email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>
+
+                <input type="password" id="pass" name="password" placeholder="password" required><br><br>
+
+                <input type="tel" id="phone" name="phone" placeholder="phone number" pattern="[789][0-9]{9}"
+                    required><br><br>
+
+                <input type='file' id="image" accept="image/*"><br><br>
+                <img id="target" alt="your image" src="" />
+            </form>
+
+
+
+            <button onclick="handleSubmit()" on id="submit">SUBMIT</button><br><br>
+
+
+
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
